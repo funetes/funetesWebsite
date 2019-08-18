@@ -4,6 +4,10 @@ body {
   box-sizing: border-box;
 }
 
+.container {
+  opacity: 1;
+}
+
 #typeWriter {
   color: white;
 }
@@ -17,10 +21,6 @@ body {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.StackBackGround {
-  background: rgba(0, 0, 0, 0.8);
-}
-
 .Home {
   display: flex;
   justify-content: center;
@@ -30,6 +30,14 @@ body {
   background-image: url("./img/home.jpeg");
   background-size: cover;
   background-position: center;
+}
+
+.home__content {
+  color: white;
+}
+
+.home__content-list {
+  opacity: 0.7;
 }
 
 .Product {
@@ -51,26 +59,14 @@ body {
   background-position: center;
 }
 
+.StackBackGround {
+  background: rgba(0, 0, 0, 0.8);
+}
+
 .Contact {
   width: 100vw;
   height: 100vh;
   background-image: url("./img/contact.jpeg");
   background-size: cover;
   background-position: center;
-}
-
-.contactBackGround {
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.container {
-  opacity: 1;
-}
-
-.home__content {
-  color: white;
-}
-
-.home__content-list {
-  opacity: 0.7;
 }

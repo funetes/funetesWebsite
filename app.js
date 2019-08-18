@@ -1,6 +1,6 @@
 const app = document.getElementById('typeWriter');
 const scroll = new SmoothScroll('a[href*="#"]', {
-	speed: 1500
+    speed: 1500
 });
 const typewriter = new Typewriter(app, {
     loop: true
@@ -15,6 +15,3 @@ typewriter.typeString('FrontEnd')
     .typeString('Be FullStack')
     .pauseFor(2500)
     .start();
-
-
-    

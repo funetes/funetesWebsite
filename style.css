@@ -1,22 +1,27 @@
-body{
-  position: relative;
+body {
+  /* position: relative; */
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
-#typeWriter{
-  color:white;
+#typeWriter {
+  color: white;
 }
-.image-size{
+
+.image-size {
   width: 70px;
   height: 70px;
 }
-.backg{
+
+.backg {
   background: rgba(0, 0, 0, 0.5);
 }
-.StackBackGround{
+
+.StackBackGround {
   background: rgba(0, 0, 0, 0.8);
 }
-.Home{
+
+.Home {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,45 +29,49 @@ body{
   /* opacity: 0.8; */
   background-image: url("./img/home.jpeg");
   background-size: cover;
-  background-position: center; 
+  background-position: center;
 }
-.Product{
+
+.Product {
   padding-top: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
   width: 100vw;
-  height: 100%;
-  opacity: 0.8;
-  background-image: url("./img/product.jpeg") ;
-  background-position: center; 
+  opacity: 0.9;
+  background-image: url("./img/products.jpg");
+  background-position: center center;
 }
 
-.Stack{
+.Stack {
   width: 100vw;
-  height: 100vh;
   opacity: 0.9;
   background-image: url("./img/stack.jpeg");
-  background-position: center; 
-}
-.Contact{
-  width: 100vw;
-  height: 100vh;
-  opacity: 0.9;
-  background-image: url("./img/contact.jpeg");
-  background-size: cover;
-  background-position: center; 
+  background-position: center;
 }
 
-.container{
+.Contact {
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url("./img/contact.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.contactBackGround {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.container {
   opacity: 1;
 }
 
-.home__content{
+.home__content {
   color: white;
 }
-.home__content-list{
+
+.home__content-list {
   opacity: 0.7;
 }
-

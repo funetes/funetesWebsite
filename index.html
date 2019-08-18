@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="https://use.fontawesome.com/47525f8840.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <title>Turtle Dev</title>
@@ -16,7 +16,7 @@
     <div class="container">
       <a class="navbar-brand text-center p-0 m-0 d-flex align-items-center" href="#Home">
         <img src="./img/IMG_logo.png" alt="" class="image-size">
-        <h5 class="m-0">turtle`s code</h5>
+        <h5 class="ml-1">turtle`s code</h5>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -41,11 +41,11 @@
   </nav>
 
   <!-- Home -->
-  <section class="Home" id="Home">
+  <section class="Home p-5" id="Home">
     <div class="container">
       <div class="row">
         <div class="col-md-6 d-flex p-5">
-            <h1 class="display-4 align-self-center text-center mx-auto" id="typeWriter"></h1>
+            <h1 class="display-5 align-self-center text-center mx-auto pt-5" id="typeWriter"></h1>
         </div>
         <div class="col-md-6 p-2 text-center ">
           <div class="container p-5 rounded backg">
@@ -64,19 +64,14 @@
                   <div class="row pt-3 text-white">
                     <div class="col">
                       <a href="https://github.com/funetes?tab=repositories" target="_blank" class="text-white">
-                        <i class="fa fa-github fa-lg"></i>
+                        <i class="fab fa-github fa-lg"></i>
                       </a>
                     </div>
                     <div class="col">
                       <a href="https://artdev.tistory.com/" target="_blank" class="text-white">
-                        <i class="fa fa-edit"></i>
+                        <i class="fas fa-edit"></i>
                       </a>
                     </div>
-                    <div class="col">
-                      <a href="#" class="text-white">
-                        <i class="fa fa-envelope"></i>
-                      </a>
-                      </div>
                   </div>
               </div>
             </div>
@@ -88,7 +83,7 @@
   </section>
 
   <!-- Pruduct -->
-  <section class="Product pb-4" id="Product">
+  <section class="Product pt-5 " id="Product">
     <div class="container d-flex flex-column mb-5">
       <div class="row text-center p-2 ">
         <div class="col-md-4 mb-3 pt-5 d-flex justify-content-center">
@@ -100,7 +95,8 @@
                   html<br>
                   css<br>
                 </p>
-                <a href="https://funetes.github.io/cocoaTalk/" class="btn btn-primary">Go There</a>
+                <a href="https://funetes.github.io/cocoaTalk/" class="btn btn-primary d-block mb-1" target="_blank">Go There</a>
+                <a href="https://github.com/funetes/cocoaTalk" class="btn btn-primary px-3 d-block" target="_blank">repo</a>
               </div>
           </div>
         </div>
@@ -118,7 +114,8 @@
                   mongoDB<br>
                   heroku<br>
                 </p>
-                <a href="#" class="btn btn-primary disabled">Go There</a>
+                <a href="#" class="btn btn-primary disabled d-block mb-1" target="_blank">Go There</a>
+                <a href="https://github.com/funetes/wetube-final" class="btn btn-primary px-3 d-block" target="_blank">repo</a>
               </div>
           </div>
         </div>
@@ -132,14 +129,30 @@
                   graphql<br>
                   apollo<br>
                 </p>
-                <a href="#" class="btn btn-primary disabled">Go somewhere</a>
+                <a href="#" class="btn btn-primary disabled mb-1 d-block" target="_blank">Go there</a>
+                <a href="https://github.com/funetes/fullstagram" class="btn btn-primary mb-1 d-block" target="_blank">repo(back)</a>
+                <a href="https://github.com/funetes/fullstagramFrontend" class="btn btn-primary d-block" target="_blank">repo(front)</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3 pt-5 d-flex justify-content-center">
+          <div class="card p-1" style="width: 14rem;">
+              <img src="./img/product/meflix.png" class="card-img-top border" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">netflix Clone Coding</h5>
+                <p class="card-text">
+                  react<br>
+                  styled-Component(CSS)<br>
+                </p>
+                <a href="https://meflix.netlify.com/#/" class="btn btn-primary d-block mb-1" target="_blank">Go there</a>
+                <a href="#" class="btn btn-primary px-3 d-block" target="_blank">repo</a>
               </div>
           </div>
         </div>
       </div>
+      </div>
     </div>
   </section>
-
   <!-- Stack -->
   <section class="Stack p-5" id="Stack">
     <div class="container text-white text-center p-5">
@@ -176,11 +189,11 @@
             </span>
           </div>
           <div class="p-2">
-              <span class="h5">NodeJs : </span>
-              <span class="progress">
-                <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-              </span>
-            </div>
+            <span class="h5">NodeJs : </span>
+            <span class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </span>
+          </div>
           <div class="p-2">
             <span class="h5">Express : </span>
             <span class="progress">
@@ -188,18 +201,57 @@
             </span>
           </div>
           <div class="p-2">
-              <span class="h5">MongoDB : </span>
-              <span class="progress">
-                <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-              </span>
-            </div>
+            <span class="h5">MongoDB : </span>
+            <span class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </span>
+          </div>
+          <div class="p-2">
+            <span class="h5">Grapgql : </span>
+            <span class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </span>
+          </div>
+          <div class="p-2">
+            <span class="h5">prisma : </span>
+            <span class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </span>
+          </div>
+          <div class="p-2">
+            <span class="h5">prisma : </span>
+            <span class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </span>
+          </div>
       </div>
     </div>
   </section>
 
   <!-- Contact -->
-  <section class="Contact" id="Contact">
-  
+  <section class="Contact p-5 d-flex justify-content-center align-items-center"id="Contact">
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-6 rounded text-center text-white contactBackGround">
+          <h1 class="h2 text-white pb-4 pt-2">Contact</h1>     
+          <p>
+            <span><i class="fas fa-envelope"></i></span>
+            kimlove2324@gmail.com
+          </p>
+          <p>
+            <span><i class="fas fa-phone"></i></span>
+            010 - 2345 - 6789</p>
+          <p> 
+            <span><i class="fab fa-facebook"></i></span>
+            a65564731@nate.com
+          </p>
+          <p>
+            <span><i class="fab fa-github"></i></span> 
+            funetes
+          </p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>

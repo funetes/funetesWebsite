@@ -12,6 +12,6 @@ typewriter.typeString('FrontEnd')
     .typeString('BackEnd')
     .pauseFor(2500)
     .deleteChars(7)
-    .typeString('Be FullStack')
+    .typeString('FullStack')
     .pauseFor(2500)
     .start();

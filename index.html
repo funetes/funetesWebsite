@@ -158,6 +158,22 @@
               </div>
           </div>
         </div>
+        <!-- github-Finder -->
+        <div class="col-md-4 mb-3 d-flex justify-content-center">
+          <div class="card p-1" style="width: 14rem;">
+              <img src="./img/product/githubFinder.png" class="card-img-top border" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">github-Finder</h5>
+                <!-- <p class="card-text">
+                  react<br>
+                  styled-Component(CSS)<br>
+                </p> -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#githubFinderModal">
+                  show Info
+                </button>
+              </div>
+          </div>
+        </div>
       </div>
       </div>
     </div>
@@ -419,6 +435,41 @@
         </div>
       </div>
   </div>
+  <!-- Modal github-Finder-->
+  <div class="modal fade" id="githubFinderModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalScrollableTitle">meflix</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>
+              reactjs
+            </li>
+            <li>
+              useContext
+            </li>
+            <li>
+              useReducer
+            </li>
+          </ul>
+            <p>
+              github api를 이용하여 만든 github-finder app 입니다. brad-traversy의 강좌를 보면서 만든 앱입니다.
+              hooks에 대한 연습을 많이 하였고 특히 state management부분을 공부하였습니다. 
+              규모가 그리 크지 않은 app이지만 상태 관리를 한곳에서 함으로써 코드가 깔끔해지고 가독성이 좋아지는것을 알수 있었습니다.
+            </p>
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="btn btn-primary d-block mb-1" target="_blank">Go there</a>
+          <a href="https://github.com/funetes/githubfinder" class="btn btn-primary px-3 d-block" target="_blank">repo</a>
+        </div>
+      </div>
+    </div>
+</div>
 
   <!-- script -->
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
